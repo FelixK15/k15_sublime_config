@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+g"], "command": "goto_definition" },
+	{ "keys": ["f1"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["/"], "command": "k15_comment_block"}
+]
