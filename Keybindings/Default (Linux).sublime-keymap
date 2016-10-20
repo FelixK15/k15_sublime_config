@@ -1,0 +1,7 @@
+[
+	{ "keys": ["alt+g"], "command": "goto_definition" },
+	{ "keys": ["alt+m"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+	{ "keys": ["shift+alt+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["f1"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["/"], "command": "k15_comment_block"}
+]

@@ -1,7 +1,17 @@
 {
-	"shell_cmd": "build.bat",
-	"shell": true,
 	"working_dir": "${project_path}",
-	"file_regex": "^([\\w\\d.]*)\\((\\d*)\\)[\\s:]*(.*$)"
+	
+	"windows":
+	{
+		"shell": true,
+		"cmd": ["build.bat"],
+		"file_regex": "^([\\w\\d.]*)\\((\\d*)\\)[\\s:]*(.*$)"
+	},
 
+	"linux":
+	{
+		"shell": true,
+		"cmd": ["bash build.sh"],
+		"file_regex": "^([\\w.\\d]+)\\:(\\d+)\\:(\\d+)[:\\s]+(.*)$"
+	}
 }
