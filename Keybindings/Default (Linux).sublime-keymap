@@ -5,7 +5,8 @@
 	{ "keys": ["f1"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 	{ "keys": ["f7"], "command": "build"},
 	{ "keys": ["/"], "command": "k15_comment_block"},
+	{ "keys": ["alt+left"], "command": "jump_back"},
+	{ "keys": ["alt+right"], "command": "jump_forward"},
 	{ "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} }
-
 ]
