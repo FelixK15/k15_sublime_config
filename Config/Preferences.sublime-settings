@@ -2,6 +2,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"font_size": 9,
 	"highlight_line": true,
+	"tab_completion": false,
 	"ignored_packages":
 	[
 		"Vintage"
