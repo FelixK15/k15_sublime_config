@@ -8,8 +8,7 @@ is aiming at providing a similar experience.
 #How can I add these config files to my sublime setup?
 
 ##Windows
-You can basically just move all the files from the folders of this repository to 
-the *Data/Packages/User* folder of your local Sublime installation.
+Move all the files from the folders of this repository to the *Data/Packages/User* folder of your local Sublime installation.
 
 ##Linux
-(Soon)
+Move all the files from the folders of this repository to the */home/{user}/.config/sublime-text-3/Packages/User/* folder.
